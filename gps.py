@@ -1,3 +1,20 @@
+import ctypes
+
+def get_city_name():
+    try:
+        geolocation = ctypes.windll.winmm.timeGetTime()
+        latitude = (geolocation >> 32) * 1e-7
+        longitude = (geolocation & 0xffffffff) * 1e-7
+        return f"Latitude: {latitude}, Longitude: {longitude}"
+    except Exception as e:
+        return str(e)
+
+if __name__ == "__main__":
+    location_info = get_city_name()
+    print(f"Votre emplacement (latitude, longitude) est : {location_info}")
+
+
+
 import geocoder
 
 def get_city_name():
