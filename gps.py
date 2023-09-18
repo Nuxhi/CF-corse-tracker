@@ -1,3 +1,15 @@
+import geocoder
+
+def get_city_name():
+    g = geocoder.ip('me')
+    return g.city
+
+if __name__ == "__main__":
+    city_name = get_city_name()
+    print(f"Vous êtes dans la ville de {city_name}")
+
+
+---- 
 from geopy.geocoders import Nominatim
 import geocoder
 
