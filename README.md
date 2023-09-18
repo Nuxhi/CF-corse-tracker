@@ -9,6 +9,8 @@ A simple tool that tells me what time the next train passes near me.
 > - Light Cloudy est en cours de développement le répo github reste encore privé  *`[ouvert fin 2023 / début 2024]`* 
 > - Light Cloudy est un systeme de messagerie et de clood développer en C / Python
 
+
+
 [🪐] **prérequis / permission utiliser par l'application :**
 
 > - **Python 3**
@@ -17,11 +19,12 @@ A simple tool that tells me what time the next train passes near me.
 > - [BETA UNIQUEMENT : connection ssh to Light Cloudy ]
 
 
+
 [🔑] **Installation :**
 
 > - download the file *`CFC-tracker.py`* 
 > - Wait
 
 
-[🍇] **Obejective : **
+[🍇] **Obejective :**
 Localiser l'utilisateur afin de trouver l'arreter de train le plus proche afin de vérifié a quelle heure le prochain train arrive. 
