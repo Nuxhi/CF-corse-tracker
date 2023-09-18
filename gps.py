@@ -8,7 +8,9 @@ def obtenir_coordonnees():
 def obtenir_ville(lat, lon):
     geolocator = Nominatim(user_agent="geoapiExercises")
     location = geolocator.reverse(f"{lat}, {lon}", exactly_one=True, language="fr")
-    return location.raw['address']['city']
+    address = location.raw.get('address', {})
+    ville = address.get('city', 'Non disponible')
+    return ville
 
 if __name__ == "__main__":
     # Obtention des coordonnées GPS
