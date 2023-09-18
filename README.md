@@ -19,9 +19,8 @@ CF-corse-tracker fonctionne avec Light Cloudy !
 
 [🔑] **Installation :**
 
-> - download the file *`Tuna express.py`* **or** *`Tuna full.py`*
-> - set up the code
-> - copy it and integrate it at the beginning of your project. 
+> - download the file *`CFC-tracker.py`* 
+> - Wait
 
 
 [🍇] **Obejective : **
